@@ -3,6 +3,7 @@
 #include "stack.h"
 #include <string.h>
 
+const int STUDENT_ID_202213536 = 202213536;
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
